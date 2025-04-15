@@ -105,7 +105,7 @@ class Game2048:
 
         if not changed:
             # No tile moved -> illegal move
-            print("Illegal move!")
+            # print("Illegal move!")
             return 0
 
         # A valid move => reward from merges is difference in after.score vs current
